@@ -1,0 +1,51 @@
+🎬 DVD Rental Business Analysis — Sakila SQL Project
+About the Dataset
+Sakila is a sample database provided by MySQL representing a DVD rental store business. It contains 16 interconnected tables covering customers, films, actors, rentals, payments, inventory, and stores — making it ideal for practicing real-world multi-table SQL analysis.
+Tools Used
+
+MySQL
+MySQL Workbench
+
+Business Questions Answered
+
+What is the total revenue generated from all payments?
+Who are the top 10 customers by total spending?
+Who are the top 10 customers by full name and total spending?
+Which film categories are rented the most?
+What are the top 5 most rented films?
+Which film category generates the highest revenue?
+Which actors appeared in the most films?
+How much revenue did each store generate?
+What is the allowed rental duration by category?
+What is the actual rental duration by category based on customer behavior?
+Which customers have never rented a film?
+Who are the VIP customers based on total spending?
+Which film category is the best performing by revenue?
+Which customers are High Value vs Low Value based on average spending?
+What is the monthly revenue trend?
+Which film category is most profitable in each store?
+
+Skills Demonstrated
+
+Multi-table JOINs (up to 5 tables)
+LEFT JOIN with NULL filtering
+CTEs (Common Table Expressions)
+Window Functions (RANK, PARTITION BY)
+Aggregate Functions (SUM, AVG, COUNT)
+Date Functions (MONTHNAME, YEAR)
+CASE WHEN with subqueries
+GROUP BY, HAVING, ORDER BY
+
+Key Insights
+
+Sports is the most rented film category with 1,179 rentals, also generating the highest revenue of $5,314.21
+Store 2 outperforms Store 1 with a total revenue of $33,924.06
+July 2005 was the peak revenue month with $28,368.91, indicating strong seasonal demand mid-year
+A small group of high value customers contribute disproportionately to total revenue compared to low value customers
+
+
+
+
+
+
+
